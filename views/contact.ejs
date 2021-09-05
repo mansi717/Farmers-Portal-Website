@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+    <div class="contact-container">
+        <div style="text-align:center">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="row">
+            <div class="column">
+              <img src="/images/farm.jpg" style="width: 82%;">
+            </div>
+            <div class="column">
+              <form action="/action_page.php">
+                <label for="fname">Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+          </div>
+    </div>
+<%- include("partials/footer"); -%>
